@@ -1,10 +1,31 @@
 # azure-ai-vision-studio-example
 Demonstração de uma solução para análise de imagens construído com Azure AI Vision.
 
-## Imagens utilizadas, resultados e passo a passo
-[Passo a passo]()
-[Inputs]()
-[Outputs]()
+## Índice
+- [Passo a passo, imagens utilizadas e resultados](#passo-a-passo-imagens-utilizadas-e-resultados)
+- [Analisar imagens no Vision Studio](#analisar-imagens-no-vision-studio)
+  - [Criar um recurso de serviços de IA do Azure](#criar-um-recurso-de-serviços-de-ia-do-azure)
+  - [Conectar o recurso de serviços de IA do Azure ao Vision Studio](#conectar-o-recurso-de-serviços-de-ia-do-azure-ao-vision-studio)
+- [Testando as Possibilidades](#testando-as-possibilidades)
+  - [Detectar rostos em uma imagem](#detectar-rostos-em-uma-imagem)
+    - [Teste Detecção "É Muita Gente"](#teste-detecção-é-muita-gente)
+    - [Teste Detecção "Rosto Detalhado"](#teste-detecção-rosto-detalhado)
+  - [Extração de texto da Imagem](#extração-de-texto-da-imagem)
+    - [Teste Extração "Nota Fiscal"](#teste-extração-nota-fiscal)
+    - [Teste Extração "Menu de Rua"](#teste-extração-menu-de-rua)
+  - [Adicionar Descrições em imagens](#adicionar-descrições-em-imagens)
+    - [Teste Descrição "Bia Mar Sol"](#teste-descrição-bia-mar-sol)
+    - [Teste Descrição "Eu nas Montanhas"](#teste-descrição-eu-nas-montanhas)
+  - [Identificar objetos em imagens](#identificar-objetos-em-imagens)
+    - [Teste Identificação "Café dos Deuses"](#teste-identificação-café-dos-deuses)
+- [IMPORTANTE: Limpeza](#importante-limpeza)
+
+## Passo a passo, imagens utilizadas e resultados 
+[Passo a passo](https://github.com/Bot-Mateus/azure-ai-vision-studio/tree/main/passo%20a%20passo)
+
+[Inputs](https://github.com/Bot-Mateus/azure-ai-vision-studio/tree/main/inputs)
+
+[Outputs](https://github.com/Bot-Mateus/azure-ai-vision-studio/tree/main/outputs)
 
 # Analisar imagens no Vision Studio
 
@@ -38,7 +59,7 @@ Conecte o recurso de serviços de IA do Azure que você provisionou ao Vision St
 
 ![Exemplo](passo%20a%20passo/6.png) 
 
-# Testando as Possibilidade
+# Testando as Possibilidades
 
 ## Detectar rostos em uma imagem
 
@@ -175,4 +196,4 @@ Caso queiram otimizar essas análises, fiquem a vontade para utilizar as imagens
 
 Se você não pretende fazer mais exercícios, exclua quaisquer recursos que não precise mais para evitar custos desnecessários.
 
-Saiba mais: [Página do Azure AI Vision]([link-para-a-página](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/03-image-analysis.html))
+Saiba mais: [Página do Azure AI Vision](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/03-image-analysis.html)
