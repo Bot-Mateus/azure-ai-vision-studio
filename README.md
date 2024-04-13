@@ -1,6 +1,11 @@
 # azure-ai-vision-studio-example
 Demonstração de uma solução para análise de imagens construído com Azure AI Vision.
 
+## Imagens utilizadas, resultados e passo a passo
+[Passo a passo]()
+[Inputs]()
+[Outputs]()
+
 # Analisar imagens no Vision Studio
 
 O Azure AI Vision inclui numerosas capacidades para entender o conteúdo e o contexto das imagens e extrair informações delas. O Azure AI Vision Studio permite experimentar muitas das capacidades de análise de imagem.
