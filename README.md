@@ -46,6 +46,9 @@ Após ter feito todos esses passos está na hora de ver algo prático. Vamos com
    
 3. Faça o upload da imagem e veja quantas faces foram encontradas.
 
+
+### Teste Detecção "É Muita Gente":
+
 ![Exemplo](passo%20a%20passo/9.png) 
 
 Nesse teste eu quis verificar se a IA daria conta de tantas faces, e fiquei satisfeito com o resultado, considerando que a imagem não está com uma resolução muito boa. 
@@ -99,24 +102,72 @@ Este é um pedaço do JSON gerado pela análise e contém informações sobre re
 
     "faceAttributes": { "mask": { "type": "noMask", "noseAndMouthCovered": false } }: Este objeto contém atributos faciais detectados. Neste caso, está indicando que não há máscara facial presente na pessoa detectada na imagem e que o nariz e a boca não estão cobertos.
 
-Não inseri o JSON completo porque esse ficou muito grande, mas podem verificar ele (AQUI)[]
-## Gerar legendas para uma imagem
+Não inseri o JSON completo porque esse ficou muito grande, mas podem verificar ele [AQUI](https://github.com/Bot-Mateus/azure-ai-vision-studio/blob/main/outputs/muitaspessoas.json)
 
-Agora você está pronto para usar o Vision Studio para analisar imagens tiradas por uma câmera na loja Northwind Traders.
+### Teste Detecção "Rosto Detalhado":
+
+![Exemplo](passo%20a%20passo/10.png) 
+
+Esse foi um teste mais "simples" e pude analisar melhor a acertividade da classificação dos atributos faciais. 
+Infelizmente não é possivel ver as marcações no print, mas garanto que os pontos estavam todos corretos.
+
+## Extração de texto da Imagem
+
+Agora vamos analisar imagens e testar a extração de texto.
 
 1. Acesse o Vision Studio.
-2. Selecione a guia de análise de imagem e adicione legendas às imagens.
+2. Selecione a guia de "Optical character recognition" e "Extract text from Images".
+3. Faça o upload da imagem e observe o texto extraído.
+
+### Teste Extração "Nota Fiscal":
+
+![Exemplo](passo%20a%20passo/12.png) 
+
+A primeira imagem que eu testei foi uma nota fiscal e funcionou muito bem, é possivel criar automações muito legais com base no JSON gerado.
+
+### Teste Extração "Menu de Rua":
+
+![Exemplo](passo%20a%20passo/13.png) 
+
+Nesse teste eu quis medir os limites dessa ferramenta usando uma imagem em baixa resolução dos famosos Menus de rua que encontramos pelo Brasil. Considerando o péssimo cenário que eu propus e que talvez nem você esteja enchergando a imagem direito, achei os resultados satisfatório.
+
+## Adicionar Descrições em imagens
+
+Essa função irá descrever o contéudo da imagem e para isso eu resolvi usar algumas das fotografias das minhas viagens. Vamos o que vai sair.
+
+1. Acesse o Vision Studio.
+2. Selecione a guia de "Image analysis" e "Add captions to images".
 3. Faça o upload da imagem e observe a legenda gerada.
+
+### Teste Descrição "Bia Mar Sol"
+
+![Exemplo](passo%20a%20passo/15.png)
+
+A descrição da imagem não é mentirosa, mesmo com desfoque e o rosto em um angulo diferente, a descrição foi satisfatória. Provavelmente podemos alcançar mais detalhes (como o por do sol) usando opções mais avançadas.
+
+### Teste Descrição "Eu nas Montanhas"
+
+![Exemplo](passo%20a%20passo/16.png)
+
+Mais uma vez, uma descrição satisfatória. Considerei essa melhor que a anterior.
 
 ## Identificar objetos em imagens
 
-Use a funcionalidade de detecção de objetos para detectar e extrair caixas delimitadoras com base em milhares de objetos e seres vivos reconhecíveis.
+A funcionalidade de detecção de objetos serve para detectar e extrair caixas delimitadoras com base em milhares de objetos e seres vivos reconhecíveis. Muito legal.
 
-1. Selecione a opção de detectar objetos comuns em imagens.
+1. Selecione a opção "Detect common objects in images".
 2. Faça o upload da imagem e observe os objetos detectados e suas pontuações de confiança.
 
-## Limpeza
+### Teste Identificação "Café dos Deuses"
+
+![Exemplo](passo%20a%20passo/19.png)
+
+Podemos ver que foi encontrado um bom número de objetos no cenário e a acertividade também foi satisfatória. Utilizando opções mais avançadas imagino que todos os objetos poderiam ser encontrados. 
+
+Caso queiram otimizar essas análises, fiquem a vontade para utilizar as imagens desse Laboratório.
+
+# IMPORTANTE: Limpeza
 
 Se você não pretende fazer mais exercícios, exclua quaisquer recursos que não precise mais para evitar custos desnecessários.
 
-Saiba mais: [Página do Azure AI Vision](link-para-a-página)
+Saiba mais: [Página do Azure AI Vision]([link-para-a-página](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/03-image-analysis.html))
