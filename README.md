@@ -80,95 +80,6 @@ Foram encontrados 78 rostos e se formos no arquivo JSON podemos obter informaç�
       "mouthRight": {
         "x": 813.1,
         "y": 321.3
-      },
-      "eyebrowLeftOuter": {
-        "x": 797,
-        "y": 303.8
-      },
-      "eyebrowLeftInner": {
-        "x": 803.6,
-        "y": 303.4
-      },
-      "eyeLeftOuter": {
-        "x": 798.5,
-        "y": 306.9
-      },
-      "eyeLeftTop": {
-        "x": 800.8,
-        "y": 306.3
-      },
-      "eyeLeftBottom": {
-        "x": 800.3,
-        "y": 307.3
-      },
-      "eyeLeftInner": {
-        "x": 802.9,
-        "y": 306.9
-      },
-      "eyebrowRightInner": {
-        "x": 809.4,
-        "y": 303.4
-      },
-      "eyebrowRightOuter": {
-        "x": 818.1,
-        "y": 304.5
-      },
-      "eyeRightInner": {
-        "x": 811.4,
-        "y": 306.8
-      },
-      "eyeRightTop": {
-        "x": 813.5,
-        "y": 306.2
-      },
-      "eyeRightBottom": {
-        "x": 813.8,
-        "y": 307.3
-      },
-      "eyeRightOuter": {
-        "x": 816.2,
-        "y": 306.8
-      },
-      "noseRootLeft": {
-        "x": 804.7,
-        "y": 307.3
-      },
-      "noseRootRight": {
-        "x": 808.4,
-        "y": 307.2
-      },
-      "noseLeftAlarTop": {
-        "x": 803,
-        "y": 312.2
-      },
-      "noseRightAlarTop": {
-        "x": 809.7,
-        "y": 312.1
-      },
-      "noseLeftAlarOutTip": {
-        "x": 802,
-        "y": 315
-      },
-      "noseRightAlarOutTip": {
-        "x": 811.1,
-        "y": 315.1
-      },
-      "upperLipTop": {
-        "x": 806.6,
-        "y": 320.6
-      },
-      "upperLipBottom": {
-        "x": 806.3,
-        "y": 321.4
-      },
-      "underLipTop": {
-        "x": 806.3,
-        "y": 322.1
-      },
-      "underLipBottom": {
-        "x": 806.3,
-        "y": 323.3
-      }
     },
     "faceAttributes": {
       "mask": {
@@ -178,7 +89,17 @@ Foram encontrados 78 rostos e se formos no arquivo JSON podemos obter informaç�
     }
   },
 ```
+Este é um pedaço do JSON gerado pela análise e contém informações sobre reconhecimento facial e atributos faciais. Vou explicar cada parte do JSON:
 
+    "recognitionModel": "recognition_01": Este campo indica o modelo de reconhecimento facial utilizado. Neste caso, está utilizando o modelo de reconhecimento facial recognition_01.
+
+    "faceRectangle": { "width": 30, "height": 39, "left": 794, "top": 291 }: Este objeto descreve o retângulo que contém o rosto na imagem. Ele especifica a largura, altura, posição à esquerda e posição superior do retângulo.
+
+    "faceLandmarks": { ... }: Este objeto contém informações sobre os marcos faciais detectados na imagem, como as posições dos olhos, nariz e boca.
+
+    "faceAttributes": { "mask": { "type": "noMask", "noseAndMouthCovered": false } }: Este objeto contém atributos faciais detectados. Neste caso, está indicando que não há máscara facial presente na pessoa detectada na imagem e que o nariz e a boca não estão cobertos.
+
+Não inseri o JSON completo porque esse ficou muito grande, mas podem verificar ele (AQUI)[]
 ## Gerar legendas para uma imagem
 
 Agora você está pronto para usar o Vision Studio para analisar imagens tiradas por uma câmera na loja Northwind Traders.
