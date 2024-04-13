@@ -19,6 +19,7 @@ Demonstração de uma solução para análise de imagens construído com Azure A
   - [Identificar objetos em imagens](#identificar-objetos-em-imagens)
     - [Teste Identificação "Café dos Deuses"](#teste-identificação-café-dos-deuses)
 - [IMPORTANTE: Limpeza](#importante-limpeza)
+- [Como me encontrar](#como-me-encontrar)
 
 ## Passo a passo, imagens utilizadas e resultados 
 [Passo a passo](https://github.com/Bot-Mateus/azure-ai-vision-studio/tree/main/passo%20a%20passo)
@@ -200,3 +201,12 @@ Caso queiram otimizar essas análises, fiquem a vontade para utilizar as imagens
 Se você não pretende fazer mais exercícios, exclua quaisquer recursos que não precise mais para evitar custos desnecessários.
 
 Saiba mais: [Página do Azure AI Vision](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/03-image-analysis.html)
+
+# Como me encontrar
+
+<p align="left">
+<!-- <a href="https://elbrusagency.com/"><img src="https://img.shields.io/badge/-elbrusagency.com-3423A6?style=flat&logo=Google-Chrome&logoColor=white"/></a> -->
+<a href="https://www.linkedin.com/in/mateus-carvalho-da-silva/"><img src="https://img.shields.io/badge/-Mateus%20Carvalho-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
+<a href="mailto:carvalho.silva2001@gmail.com"><img src="https://img.shields.io/badge/-carvalho.silva2001@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="https://www.instagram.com/mateusoaksilva/"><img src="https://img.shields.io/badge/-@mateusoaksilva-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
+</p>
