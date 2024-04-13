@@ -61,6 +61,9 @@ Conecte o recurso de serviços de IA do Azure que você provisionou ao Vision St
 
 # Testando as Possibilidades
 
+Nesta etapa eu irei mostrar os testes realizados, desde da criação até os resultados, explico um pouco sobre o JSON e dou a **minha** opnião sobre a ferramenta.
+Fiquem a vontade para replicar os testes utilizando as mesmas imagens, os links estão na sessão [Passo a passo, imagens utilizadas e resultados](#passo-a-passo-imagens-utilizadas-e-resultados)
+
 ## Detectar rostos em uma imagem
 
 Após ter feito todos esses passos está na hora de ver algo prático. Vamos começar testando a função para Detecção de Faces.
